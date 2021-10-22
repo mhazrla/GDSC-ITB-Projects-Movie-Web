@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navbar - Html Css Javascript</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+<body id="body"> 
+
+ <header class="header">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="logo">
+               <a href="#">Mhazrla</a>
+            </div>
+            <button type="button" class="nav-toggler">
+               <span></span>
+            </button>
+            <nav class="nav">
+               <ul>
+                  <li><a href="index.html" class="active">Home</a></li>
+                  <li><a href="#main">Movie</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </nav>
+            <form id="form">
+               <input type="text" id="search" class="search" placeholder="Search...">
+            </form>
+        </div>
+    </div>
+ </header>
+
+<div class="jumbotron">
+   <h1 class="lead">Movie Streaming Website</h1>
+   <div>
+      <button><a class="mv" href="#main">Show Movie</a> </button>
+    </div>
+</div>
+
+ <main id="main">
+    <div class="movie">
+       <img src="https://vignette.wikia.nocookie.net/marveldatabase/images/0/00/Deadpool_(film)_poster_009.jpg/revision/latest?cb=20160115014652">
+       <div class="movie-info">
+          <h3>Movie Title</h3>
+          <span class="red">9.3</span>
+       </div>
+       <div class="overview">
+         <h3>Overview</h3>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit modi molestiae mollitia officia quos cumque error corrupti facilis perspiciatis nam!
+      </div>
+    </div>
+ </main>
+ 
+
+ <div class="footer" id="contact">
+   <div class="footer-content">
+
+     <div class="footer-section about">
+       <h1 class="logo-text"><span>Mha</span>zrla</h1>
+
+       <div class="socials">
+         <a href="https://instagram.com/mhazrla" target="_blank"><i class="fab fa-instagram"></i></a>
+         <a href="mailto:mhazrla@gmail.com"><i class="fas fa-envelope"></i></a>
+       </div>
+     </div>
+
+     <div class="footer-section links">
+       <h2>Quick Links</h2>
+       <br>
+       <ul>
+         <a href="index.html">
+           <li>Home</li>
+         </a>
+         <a href="#main">
+           <li>Movie</li>
+         </a>
+         <a href="#contact">
+           <li>Contact</li>
+         </a>
+       </ul>
+     </div>
+   </div>
+
+ </div>
+ <script src="javascript.js"></script>
+</body>
+</html>
