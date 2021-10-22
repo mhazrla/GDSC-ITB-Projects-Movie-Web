@@ -3,7 +3,7 @@
 
 ## Feature : 
 
-### 1. Banner
+### 1. Banner and Navbar
 ![Banner](./image/top.png)
 
 ### 2. Search bar
