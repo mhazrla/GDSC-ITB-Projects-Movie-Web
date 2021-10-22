@@ -1,4 +1,5 @@
 # GDSC-ITB-Projects-Movie-Web
+### This page simply contains title, synopsis, and rating information and is not intended for streaming.
 
 ## Feature : 
 
@@ -16,3 +17,6 @@ This is the results from searching movie
 
 ### 4. Contact
 ![Banner](./image/bottom.png)
+
+### 5. Responsive on smartphone
+![Banner](./image/responsive.png)
