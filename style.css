@@ -99,6 +99,10 @@ a {
 	text-transform: capitalize;
 }
 
+.logo span {
+	color: red;
+}
+
 .header .nav ul li{
 	display: inline-block;
 	margin-left: 20px;
@@ -118,6 +122,8 @@ a {
     padding: 8px 10px;
     text-decoration: none;
 }
+
+
 
 .header .nav ul li a.active,
 .header .nav ul li a:hover{
